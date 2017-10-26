@@ -58,24 +58,6 @@ public struct Stack<Element> {
         self.elements = Array(s.reversed())
     }
 }
-//
-//
-//public struct ArrayIterator<Element> : IteratorProtocol {
-//    
-//    var currentElement: [Element]
-//    init(elements: [Element]) {
-//        self.currentElement = elements
-//    }
-//    
-//    mutating public func next() -> Element? {
-//        if (!self.currentElement.isEmpty) {
-//            return self.currentElement.popLast()
-//        }
-//        return nil
-//    }
-//}
-
-
 
 //Protocols
 
@@ -84,11 +66,9 @@ extension Stack: CustomStringConvertible, CustomDebugStringConvertible {
     public var description: String {
         return self.elements.description
     }
-    
     public var debugDescription: String {
         return self.elements.debugDescription
     }
-    
 }
 
 
