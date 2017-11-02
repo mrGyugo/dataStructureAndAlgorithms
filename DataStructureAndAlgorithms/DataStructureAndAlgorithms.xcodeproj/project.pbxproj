@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E20218F31FA084350098DA5D /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20218F21FA084350098DA5D /* CircularBuffer.swift */; };
+		E21BA9361FA327DF0013B674 /* Alhotithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21BA9351FA327DF0013B674 /* Alhotithms.swift */; };
 		E22987C41F9F50AD002E9D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22987C31F9F50AD002E9D88 /* AppDelegate.swift */; };
 		E22987CB1F9F50AD002E9D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22987CA1F9F50AD002E9D88 /* Assets.xcassets */; };
 		E22987CE1F9F50AD002E9D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22987CC1F9F50AD002E9D88 /* LaunchScreen.storyboard */; };
 		E22987D61F9F50C7002E9D88 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22987D51F9F50C7002E9D88 /* Stack.swift */; };
 		E2A9BEAD1FA2054C005AE9A8 /* Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */; };
+		E2AAA4541FAB1EBF00CA1590 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAA4531FAB1EBF00CA1590 /* Tree.swift */; };
 		E2E3EA411F9F7F2C00D0EFCA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3EA401F9F7F2C00D0EFCA /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E20218F21FA084350098DA5D /* CircularBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
+		E21BA9351FA327DF0013B674 /* Alhotithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alhotithms.swift; sourceTree = "<group>"; };
 		E22987C01F9F50AD002E9D88 /* DataStructureAndAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureAndAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22987C31F9F50AD002E9D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E22987CA1F9F50AD002E9D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		E22987CF1F9F50AD002E9D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22987D51F9F50C7002E9D88 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Linked List.swift"; sourceTree = "<group>"; };
+		E2AAA4531FAB1EBF00CA1590 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		E2E3EA401F9F7F2C00D0EFCA /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +62,7 @@
 		E22987C21F9F50AD002E9D88 /* DataStructureAndAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				E21BA9351FA327DF0013B674 /* Alhotithms.swift */,
 				E22987D71F9F50CB002E9D88 /* Structures */,
 				E22987C31F9F50AD002E9D88 /* AppDelegate.swift */,
 				E22987CA1F9F50AD002E9D88 /* Assets.xcassets */,
@@ -74,6 +79,7 @@
 				E2E3EA401F9F7F2C00D0EFCA /* Queue.swift */,
 				E20218F21FA084350098DA5D /* CircularBuffer.swift */,
 				E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */,
+				E2AAA4531FAB1EBF00CA1590 /* Tree.swift */,
 			);
 			name = Structures;
 			sourceTree = "<group>";
@@ -150,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AAA4541FAB1EBF00CA1590 /* Tree.swift in Sources */,
 				E22987D61F9F50C7002E9D88 /* Stack.swift in Sources */,
 				E2E3EA411F9F7F2C00D0EFCA /* Queue.swift in Sources */,
 				E2A9BEAD1FA2054C005AE9A8 /* Linked List.swift in Sources */,
 				E20218F31FA084350098DA5D /* CircularBuffer.swift in Sources */,
+				E21BA9361FA327DF0013B674 /* Alhotithms.swift in Sources */,
 				E22987C41F9F50AD002E9D88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
