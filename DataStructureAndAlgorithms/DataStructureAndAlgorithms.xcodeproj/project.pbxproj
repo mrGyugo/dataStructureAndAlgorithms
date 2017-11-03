@@ -13,6 +13,7 @@
 		E22987CB1F9F50AD002E9D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22987CA1F9F50AD002E9D88 /* Assets.xcassets */; };
 		E22987CE1F9F50AD002E9D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22987CC1F9F50AD002E9D88 /* LaunchScreen.storyboard */; };
 		E22987D61F9F50C7002E9D88 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22987D51F9F50C7002E9D88 /* Stack.swift */; };
+		E22B24471FAB45D800BE2430 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B24461FAB45D800BE2430 /* BinaryTree.swift */; };
 		E2A9BEAD1FA2054C005AE9A8 /* Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */; };
 		E2AAA4541FAB1EBF00CA1590 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAA4531FAB1EBF00CA1590 /* Tree.swift */; };
 		E2E3EA411F9F7F2C00D0EFCA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3EA401F9F7F2C00D0EFCA /* Queue.swift */; };
@@ -27,6 +28,7 @@
 		E22987CD1F9F50AD002E9D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22987CF1F9F50AD002E9D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22987D51F9F50C7002E9D88 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		E22B24461FAB45D800BE2430 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Linked List.swift"; sourceTree = "<group>"; };
 		E2AAA4531FAB1EBF00CA1590 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		E2E3EA401F9F7F2C00D0EFCA /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E20218F21FA084350098DA5D /* CircularBuffer.swift */,
 				E2A9BEAC1FA2054C005AE9A8 /* Linked List.swift */,
 				E2AAA4531FAB1EBF00CA1590 /* Tree.swift */,
+				E22B24461FAB45D800BE2430 /* BinaryTree.swift */,
 			);
 			name = Structures;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22B24471FAB45D800BE2430 /* BinaryTree.swift in Sources */,
 				E2AAA4541FAB1EBF00CA1590 /* Tree.swift in Sources */,
 				E22987D61F9F50C7002E9D88 /* Stack.swift in Sources */,
 				E2E3EA411F9F7F2C00D0EFCA /* Queue.swift in Sources */,
